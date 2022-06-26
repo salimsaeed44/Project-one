@@ -10,6 +10,11 @@ body {
     display: flex;
     flex-direction: row-reverse;
 }
+    @media (max-width: 767px) {
+    .main  {
+        width: 102%;
+    }
+}
 @media (max-width: 767px) {
     .container .main {
         background-color: #1c1938;
@@ -21,6 +26,12 @@ body {
 .container {
     width: 85%;
     margin: auto;
+}
+@media (max-width: 767px) {
+    .container  {
+        margin-top: 15px;
+        margin: 20px;
+    }
 }
 .container .main .images {
     display: flex;
@@ -60,7 +71,7 @@ body {
     .container .main .images img {
         width: 198%;
         position: relative;
-        left: 131px;
+        left: 167px;
     }
 }
 .container .main .title {
